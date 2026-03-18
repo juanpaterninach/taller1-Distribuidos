@@ -7,10 +7,7 @@ from database.models import Procesamiento
 
 
 def iniciar_pipeline(proceso_id: str, workers_config: dict):
-    """
-    Esta función simula el pipeline.
-    Más adelante aquí irá toda la lógica concurrente real.
-    """
+    
 
     db = SessionLocal()
 
